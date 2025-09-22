@@ -5,22 +5,22 @@ Dibangun menggunakan Next.js, TailwindCSS, dan Recharts tanpa database tambahan 
 
 ### ✨ Fitur Utama
 
-- **✅ Status Dashboard: Tampilkan status API, uptime, dan health check
-- **📊 Performance Chart: Grafik performa 24 jam, 7 hari, dan 30 hari
-- **⚡ Realtime Monitoring: Auto-refresh setiap 30 detik untuk update status server
-- **🌗 Dark/Light Mode: Tema otomatis dengan dukungan Next Themes
-- **🔔 Error Tracking: Tampilkan error rate dan response time API
-- **📈 Statistik Lengkap: Jumlah request, rata-rata response time, dan error ratio
+- ✅ Status Dashboard: Tampilkan status API, uptime, dan health check
+- 📊 Performance Chart: Grafik performa 24 jam, 7 hari, dan 30 hari
+- ⚡ Realtime Monitoring: Auto-refresh setiap 30 detik untuk update status server
+- 🌗 Dark/Light Mode: Tema otomatis dengan dukungan Next Themes
+- 🔔 Error Tracking: Tampilkan error rate dan response time API
+- 📈 Statistik Lengkap: Jumlah request, rata-rata response time, dan error ratio
 
 
 ### 🛠️ Teknologi
 
-- ** ⚡ Next.js 15 - Framework React untuk produksi
-- ** 📘 TypeScript - Menjamin type-safety
-- ** 🎨 Tailwind CSS - Styling cepat dan responsif
-- ** 🧩 shadcn/ui - Komponen modern berbasis Radix UI
-- ** 📊 Recharts - Grafik interaktif untuk analitik performa
-- ** 🌗 Next Themes - Dark/light mode otomatis
+- ⚡ Next.js 15 - Framework React untuk produksi
+- 📘 TypeScript - Menjamin type-safety
+- 🎨 Tailwind CSS - Styling cepat dan responsif
+- 🧩 shadcn/ui - Komponen modern berbasis Radix UI
+- 📊 Recharts - Grafik interaktif untuk analitik performa
+- 🌗 Next Themes - Dark/light mode otomatis
 
 ### 🚀 Quick Start
 
