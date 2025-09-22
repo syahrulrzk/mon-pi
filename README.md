@@ -1,5 +1,10 @@
 # 🚀 MON-PI - Monitoring API Dashboard
 
+<p align="center">
+  <img src="monpi.png" alt="MON-PI Dashboard" width="1000"/>
+</p>
+
+
 MON-PI is a modern application for monitoring API and service performance in real-time.
 Built using Next.js, TailwindCSS, and Recharts without any additional databases, it's lightweight, fast, and easy to use.
 
