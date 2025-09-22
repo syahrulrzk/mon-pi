@@ -1,80 +1,77 @@
 # 🚀 MON-PI - Monitoring API Dashboard
 
-MON-PI adalah aplikasi modern untuk memantau performa API dan layanan secara real-time.
-Dibangun menggunakan Next.js, TailwindCSS, dan Recharts tanpa database tambahan sehingga ringan, cepat, dan mudah digunakan.
+MON-PI is a modern application for monitoring API and service performance in real-time.
+Built using Next.js, TailwindCSS, and Recharts without any additional databases, it's lightweight, fast, and easy to use.
 
-### ✨ Fitur Utama
+### ✨ Key Features
 
-- ✅ Status Dashboard: Tampilkan status API, uptime, dan health check
-- 📊 Performance Chart: Grafik performa 24 jam, 7 hari, dan 30 hari
-- ⚡ Realtime Monitoring: Auto-refresh setiap 30 detik untuk update status server
-- 🌗 Dark/Light Mode: Tema otomatis dengan dukungan Next Themes
-- 🔔 Error Tracking: Tampilkan error rate dan response time API
-- 📈 Statistik Lengkap: Jumlah request, rata-rata response time, dan error ratio
+- ✅ Status Dashboard: Display API status, uptime, and health checks
+- 📊 Performance Chart: 24/7, 30/40 performance charts
+- ⚡ Realtime Monitoring: Auto-refresh every 30 seconds to update server status
+- 🌗 Dark/Light Mode: Automatic theme with Next Themes support
+- 🔔 Error Tracking: Display API error rate and response time
+- 📈 Complete Statistics: Number of requests, average response time, and error ratio
 
+### 🛠️ Technology
 
-### 🛠️ Teknologi
-
-- ⚡ Next.js 15 - Framework React untuk produksi
-- 📘 TypeScript - Menjamin type-safety
-- 🎨 Tailwind CSS - Styling cepat dan responsif
-- 🧩 shadcn/ui - Komponen modern berbasis Radix UI
-- 📊 Recharts - Grafik interaktif untuk analitik performa
-- 🌗 Next Themes - Dark/light mode otomatis
+- ⚡ Next.js 15 - React framework for production
+- 📘 TypeScript - Ensures type-safety
+- 🎨 Tailwind CSS - Fast and responsive styling
+- 🧩 shadcn/ui - Modern components based on Radix UI
+- 📊 Recharts - Interactive charts for analytics performance
+- 🌗 Next Themes - Dark/light mode automatically
 
 ### 🚀 Quick Start
 
 ```bash
-# Clone repo
+# Clone repos
 git clone https://github.com/syahrulrzk/mon-pi.git
 cd mon-pi
 
 # Install dependencies
 npm install
 
-# Jalankan mode development
+# Run development mode
 npm run dev
 
-# Build untuk production
+# Build for production
 npm run build
 npm start
 
 ```
 
-Buka http://localhost:3000 untuk melihat dashboard.
+Go to http://localhost:3000 to see the dashboard.
 
 
-### 📊 Tampilan Dashboard
+### 📊 Dashboard Display
 
-- System Health: Menunjukkan persentase uptime layanan
-- Total Requests: Jumlah total request API
-- Error Rate: Persentase error dari semua request
-- Avg Response Time: Rata-rata waktu respon API
-- Performance Chart: Grafik interaktif untuk monitoring performa
+- System Health: Shows the service uptime percentage
+- Total Requests: Total number of API requests
+- Error Rate: Percentage of errors out of all requests
+- Avg Response Time: Average API response time
+- Performance Chart: Interactive graph for performance monitoring
 
-
-### 📂 Struktur Project
+### 📂 Project Structure
 
 ```bash
 src/
-├── app/                 # Routing Next.js App Router
-├── components/          # Reusable React components
-│   └── ui/              # shadcn/ui components
-├── lib/                 # Utility functions
-├── hooks/               # Custom hooks
-└── charts/              # Recharts configuration
+├── app/ # Routing Next.js App Router
+├── components/ # Reusable React components
+│ └── ui/ # shadcn/ui components
+├── lib/ # Utility functions
+├── hooks/ # Custom hooks
+└── charts/ # Recharts configuration
 
 ```
 
-### 🎯 Kenapa MON-PI?
+### 🎯 Why MON-PI?
 
-- 🏎️ Ringan & Cepat - Tidak perlu database
-- 🔎 Real-time Insight - Monitoring dengan auto refresh
-- 🎨 UI Modern - Tampilan dashboard profesional
-- 🌍 Open Source - Bisa dikustomisasi sesuai kebutuhan
+- 🏎️ Light & Fast - No database required
+- 🔎 Real-time Insight - Monitoring with auto-refresh
+- 🎨 Modern UI - Professional dashboard display
+- 🌍 Open Source - Can be customized to suit your needs
 
-
-### ❤️ Kontribusi
-Proyek ini open source, silakan fork, pull request, atau laporkan issue di GitHub.
+### ❤️ Contribution
+This project is open source, please fork, pull request, or file an issue on GitHub.
 
 Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
