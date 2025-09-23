@@ -12,12 +12,11 @@ interface ApiEndpoint {
 
 // Simulated in-memory storage with real URLs
 let endpoints: ApiEndpoint[] = [
-  { id: '1', name: 'Todos API', url: 'https://jsonplaceholder.typicode.com/todos', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
-  { id: '2', name: 'Comments API', url: 'https://jsonplaceholder.typicode.com/comments', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
-  { id: '3', name: 'Users API', url: 'https://jsonplaceholder.typicode.com/users', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
-  { id: '4', name: 'Posts API', url: 'https://jsonplaceholder.typicode.com/posts', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
-  { id: '5', name: 'Albums API', url: 'https://jsonplaceholder.typicode.com/albums', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
-  { id: '6', name: 'Photos API', url: 'https://jsonplaceholder.typicode.com/photos', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 }
+  { id: '1', name: 'API Logs', url: 'http://localhost:3000/api/logs', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
+  { id: '2', name: 'API Metrics', url: 'http://localhost:3000/api/metrics', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
+  { id: '3', name: 'API User ', url: 'https://jsonplaceholder.typicode.com/users', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 },
+  { id: '4', name: 'API Performance', url: 'http://localhost:3000/api/performance', status: 'unknown', lastChecked: 'Never', responseTime: 0, errorRate: 0 }
+  
 ]
 
 export async function GET() {
