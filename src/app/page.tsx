@@ -416,12 +416,49 @@ export default function Home() {
         <div className="h-full overflow-y-auto p-6 md:p-8 lg:p-10">
           {/* Metrics Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <Card>
+        {/* <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
             <CardTitle className="text-sm font-medium">System Health</CardTitle>
             <Activity className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent className="pt-4">
+            <div className="text-2xl font-bold">{metrics.systemHealth.toFixed(1)}%</div>
+            <p className="text-xs text-muted-foreground mt-2">
+              Auto-updated every 30s
+            </p>
+          </CardContent>
+        </Card> */}
+
+        <Card className="relative overflow-hidden">
+          {/* Animated Background Graph */}
+          <div className="absolute inset-0 opacity-10">
+            <svg className="w-full h-full" viewBox="0 0 400 200" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="healthGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" style={{ stopColor: 'rgb(34, 197, 94)', stopOpacity: 1 }} />
+                  <stop offset="100%" style={{ stopColor: 'rgb(34, 197, 94)', stopOpacity: 0.1 }} />
+                </linearGradient>
+              </defs>
+              <path 
+                d="M0,100 Q50,50 100,100 T200,100 T300,100 T400,100 L400,200 L0,200 Z" 
+                fill="url(#healthGradient)"
+                className="animate-pulse"
+              />
+              <path 
+                d="M0,100 Q50,50 100,100 T200,100 T300,100 T400,100" 
+                stroke="rgb(34, 197, 94)" 
+                strokeWidth="2" 
+                fill="none"
+                className="animate-pulse"
+              />
+            </svg>
+          </div>
+          
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3 relative z-10">
+            <CardTitle className="text-sm font-medium">System Health</CardTitle>
+            <Activity className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent className="pt-4 relative z-10">
             <div className="text-2xl font-bold">{metrics.systemHealth.toFixed(1)}%</div>
             <p className="text-xs text-muted-foreground mt-2">
               Auto-updated every 30s
